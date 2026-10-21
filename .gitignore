@@ -23,6 +23,10 @@ uploaded_media/
 recordings/
 output/
 
+# Large Demonstration & Recording Media (>100MB)
+*.mov
+docs/Project_Demonstration/*.mov
+
 # MediaPipe / DeepFace model caches
 weights/
 .deepface/
