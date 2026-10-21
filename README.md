@@ -3,7 +3,8 @@
 An offline-first, multimodal AI perception system with **Role-Based Access Control (RBAC)**, dedicated **Teacher & Student Dashboards**, automated student provisioning, and real-time attendance & engagement analytics.
 
 **Developer:** Nirbhay Dubey — B.Tech Computer Science & Engineering (Year 1)  
-**Version:** 2.0.0 (Production RBAC Release)
+**Version:** 2.0.0 (Production RBAC Release)  
+**Demonstration Video:** 🎥 [Watch Full App Demonstration on Google Drive](https://drive.google.com/file/d/1brSP22bGDyjRPphzVRug3XZtG5TK4ueV/view?usp=sharing)
 
 ---
 
