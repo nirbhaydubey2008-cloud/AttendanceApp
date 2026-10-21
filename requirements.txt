@@ -1,0 +1,45 @@
+# ============================================================================
+# Multimodal Attendance & Engagement Agent — Python Dependencies
+# ============================================================================
+# Python Version: 3.11.x
+# Platform: macOS arm64 (Apple Silicon) — also compatible with Linux/Windows
+# Install: pip install -r requirements.txt
+# ============================================================================
+
+# --- Computer Vision Libraries ---
+# Face detection, tracking, landmark analysis, and recognition
+opencv-python>=4.8.0,<5.0.0          # Video/image processing, Haar cascades
+mediapipe>=0.10.9,<0.11.0            # Face mesh, landmark detection
+deepface>=0.0.93                     # Face recognition/verification (onnxruntime backend)
+deep-sort-realtime>=1.3.2,<2.0.0    # Multi-object tracking with persistent IDs
+
+# --- Audio Processing Libraries ---
+# Audio capture, feature extraction, noise/speech analysis
+librosa>=0.10.1,<0.11.0              # Audio feature extraction (MFCC, RMS, etc.)
+soundfile>=0.12.1,<0.13.0            # Audio file I/O (wav, flac, ogg)
+
+# --- Numerical & Data Processing ---
+numpy>=1.24.0,<2.0.0                 # Numerical arrays, math operations
+pandas>=2.0.0,<3.0.0                 # DataFrames, time-series, CSV export
+
+# --- Backend & API ---
+# FastAPI server, WebSocket support, async processing
+fastapi>=0.104.0,<1.0.0              # REST API framework
+uvicorn[standard]>=0.24.0,<1.0.0     # ASGI server for FastAPI
+websockets>=12.0,<14.0               # WebSocket protocol support
+python-multipart>=0.0.6              # File upload handling in FastAPI
+
+# --- Database ---
+sqlalchemy>=2.0.0,<3.0.0             # ORM for SQLite database operations
+
+# --- Configuration ---
+python-dotenv>=1.0.0,<2.0.0          # Load .env files for configuration
+
+# --- Dashboard (Visualization) ---
+streamlit>=1.29.0,<2.0.0             # Interactive local dashboard
+pyarrow>=14.0.0,<18.0.0              # DataFrame serialization compatible with NumPy 1.x
+
+# --- Optional: Cloud LLM Provider (NOT required for core functionality) ---
+# Uncomment the line below ONLY if you want to use Groq cloud API
+# for enhanced AI insights. Requires GROQ_API_KEY in .env and internet.
+# groq>=0.4.0,<1.0.0                 # Groq cloud LLM API client (optional)

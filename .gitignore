@@ -1,0 +1,35 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Environment Variables & Secrets
+.env
+*.local
+
+# Database & Storage
+*.db
+*.bak
+*.sqlite3
+student_db/
+uploaded_media/
+recordings/
+output/
+
+# MediaPipe / DeepFace model caches
+weights/
+.deepface/
+
+# Streamlit Local Cache
+.streamlit/
+
+# OS Specific
+.DS_Store
+Thumbs.db

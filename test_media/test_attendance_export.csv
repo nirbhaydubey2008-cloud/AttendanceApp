@@ -1,0 +1,2 @@
+student_key,student_id,name,student_name,is_enrolled,time_present_sec,total_seconds_present,presence_ratio,presence_pct,mean_engagement,status
+STU001,STU001,Nirbhay Dubey,Nirbhay Dubey,True,85.0,85.0,0.85,85.0,0.91,PRESENT
